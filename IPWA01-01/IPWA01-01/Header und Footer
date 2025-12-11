@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+
+        <source><img src="Bilder/Logo.png" width="80">
+
+        <nav>
+            <ul>
+
+                <a href="index.html"><h2>Startseite</h2></a>
+                <a href="hd Kontakt.html"><h2>Kontakt</h2></a>
+                <a href="hd FAQ.html"><h2>FAQs</h2></a>
+                <a href="hd CO2 Länder.html"><h2>CO2 Ländervergleich</h2></a>
+                
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+    </main>
+    
+    <footer>
+        <nav>
+            <ul>
+
+                <a href="ft Impressum.html"><h4>Impressum</h4></a>
+                <a href="ft Rechliches und Datenschutz.html"><h4>Rechtliches und Datenschutz</h4></a>
+                <a href="ft Socialmedia.html"><h4>Social Media</h4></a>
+
+            </ul>
+        </nav>
+    </footer>
+    
+</body>
+</html>
