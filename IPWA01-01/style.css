@@ -1,0 +1,75 @@
+p {color: black;}
+
+li a {text-decoration: none;}
+
+#Seitenüberschrift {font-size: 40px;margin-inline-start: 2cap;margin-bottom: 0%;}
+
+
+
+header {display: flex; background: linear-gradient(green,lightgreen);height: 150px;align-content: flex-start;margin-bottom: 0px;border: 3px;border-radius: 10px;border-color: transparent;}
+header ul {display: flex; gap: 40px;}
+header ul li {font-size: 30px;font-weight: 600;}
+
+
+nav ul li {display: flex; gap: 15px;}
+
+#Seitenmenü {width: 200px;margin-top: 0px;width: max-content;}
+#Seitenmenü h2 {text-align: center;font-family: sans-serif;}
+#Seitenmenü nav {border: 3px;border-color: black;border-radius: 5px;}
+#Seitenmenü ul  {display: flex; flex-direction: column;padding-inline-start: 0%; gap: 10px;width: max-content;}
+#Seitenmenü ul li {font-size: 30px;border: 2px;border-style: solid;border-color: black;border-radius: 5px;}
+
+#Seitenmenü ul li:nth-child(1) {background-color: blueviolet;} #Seitenmenü ul li:nth-child(1) a {color: white;}
+#Seitenmenü ul li:nth-child(2) {background-color: rgb(53, 51, 51);} #Seitenmenü ul li:nth-child(2) a {color: yellowgreen;}
+#Seitenmenü ul li:nth-child(3) {background-color: green;} #Seitenmenü ul li:nth-child(3) a {color: orange;}
+#Seitenmenü ul li:nth-child(4) {background-color: rgb(232, 245, 50);} #Seitenmenü ul li:nth-child(4) a {color: blue;}
+#Seitenmenü ul li:nth-child(5) {background-color: black;} #Seitenmenü ul li:nth-child(5) a {color: white;}
+
+#Seitenmenü, #Sauberer_Planet {display: flex;flex-direction: row;}
+
+body {background: radial-gradient(lightblue, aqua, blue)}
+
+#Bildtext_About {display: flex;justify-content: flex-start;align-items: flex-start;background: radial-gradient(lightgreen,yellowgreen,green);
+border: 3px solid black;border-style: inset;border-radius: 5px;}
+#Bildtext_About p {margin-top: 0px;margin-bottom: 0px;font-family: sans-serif;font-size: 27px;background-color: transparent;}
+
+#Bildtext_Motivation {display: flex;justify-content: flex-start;align-items: flex-start;background: radial-gradient(lightgreen,yellowgreen,green);
+border: 3px solid black;border-style: inset;border-radius: 5px;}
+#Bildtext_Motivation p {margin-top: 0px;margin-bottom: 0px;font-family: sans-serif;font-size: 27px;background-color: transparent;}
+
+#Bildtext_Mission {display: flex;justify-content: flex-start;align-items: flex-start;background: radial-gradient(lightgreen,yellowgreen,green);
+border: 3px solid black;border-style: inset;border-radius: 5px;}
+#Bildtext_Mission p {margin-top: 0px;margin-bottom: 0px;font-family: sans-serif;font-size: 27px;background-color: transparent;}
+
+footer {display: flex;}
+footer ul {display: flex; gap: 15px;}
+footer ul li {text-wight: 300px}
+footer ul li a {color: darkgray;display: flex;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
