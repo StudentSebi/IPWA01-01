@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+}
+
+p {font-size: 120%;margin-inline-start: 3%;margin-inline-end: 3%;overflow-wrap: break-word;}
+h1, h2, h3 {font-size: 140%;margin-inline-start: 3%;margin-inline-end: 3%;}
+li {list-style: none;}
+
+#Logo {margin: 0%;}
+
+img {width: 100%;}
+
+body {background: radial-gradient(lightgreen,lightgreen,green);margin: 0%;padding: 0%;}
+main {border-top: 1%;border-color: black;border-style: solid;}
+
+
+
+header {display: flex;flex-direction: row;background: linear-gradient(green,lightgreen);
+margin: 0%;min-width: auto;}
+header h1 {font-size: 90%;display: none;}
+header li {font-size: 80%;}
+
+
+#Logo {width: 40%;height: auto;}
+
+footer a {color: black;font-size: 80%;}
+
