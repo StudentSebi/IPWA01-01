@@ -8,6 +8,8 @@ li {list-style: none;}
 
 #Logo {margin: 0%;}
 
+
+
 img {width: 100%;}
 
 body {background: radial-gradient(lightgreen,lightgreen,green);margin: 0%;padding: 0%;}
@@ -19,6 +21,9 @@ header {display: flex;flex-direction: row;background: linear-gradient(green,ligh
 margin: 0%;min-width: auto;}
 header h1 {font-size: 90%;display: none;}
 header li {font-size: 80%;}
+
+header nav {display: none;}
+.Hamburger {height: 50px;width: 50px;background-color: blue;margin-inline-end: 5vh;margin-top: 5vh;}
 
 
 #Logo {width: 40%;height: auto;}
