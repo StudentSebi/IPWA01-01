@@ -2,27 +2,58 @@
   width: 100%;
 }
 
+/*Styles für alle Seiten*/
+
 p {font-size: 120%;margin-inline-start: 3%;margin-inline-end: 3%;overflow-wrap: break-word;}
 h1, h2, h3 {font-size: 140%;margin-inline-start: 3%;margin-inline-end: 3%;}
 li {list-style: none;}
 
-#Logo {margin: 0%;}
-
-
-
 img {width: 100%;}
 
-body {background: radial-gradient(lightgreen,lightgreen,green);margin: 0%;padding: 0%;}
-main {border-top: 1%;border-color: black;border-style: solid;}
 
+/*Header*/
 
-
-header {display: flex;flex-direction: row;background: linear-gradient(green,lightgreen);
+header {display: flex;flex-direction: row;background: transparent);
 margin: 0%;min-width: auto;}
 header h1 {font-size: 90%;display: none;}
 header li {font-size: 80%;}
-
 header nav {display: none;}
+
+
+/*Body und Main*/
+
+body {background: radial-gradient(lightgreen,lightgreen,green);margin: 0%;padding: 0%;}
+main {border-bottom: 1px;border-top: 0px;border-color: black;border-style: solid;}
+
+
+/*Footer*/
+
+footer {display: flex;justify-content: center;}
+
+/*Sektionen und Klassen*/
+
+#Logo {margin: 0%;}
+
+.Hamburger {position: fixed;display: flex;margin-inline-start: 80%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Hamburger {height: 50px;width: 50px;background-color: blue;margin-inline-end: 5vh;margin-top: 5vh;}
 
 
