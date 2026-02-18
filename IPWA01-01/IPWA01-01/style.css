@@ -1,0 +1,263 @@
+/* ****************************************************Mobil Hochformat Start ***************************************************** */
+
+header h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar {
+    background: linear-gradient(green, lightgreen) !important;width: 100%;
+}
+
+header {background-color: green;}
+
+.btn-group {
+gap: 0.5rem;
+}
+
+.btn-group .btn {
+color: black !important;
+}
+
+.btn-group .btn-primary {
+background: linear-gradient(green,lightgreen);min-width: min-content;border-color: black;
+}
+
+.navbar a {
+font-size: 1.5rem;
+}
+
+body {
+    background: linear-gradient(to bottom, green, lightgreen) !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+    
+
+    
+}
+
+footer {
+
+display: flex;
+justify-content: center;
+align-content: end;
+}
+
+h2 {
+text-align: center;
+}
+
+p, h2, h3, h4 {
+margin-inline-start: 5%;
+margin-inline-end: 5%;  
+}
+
+p {font-size: large;}
+
+footer .nav li {
+font-size: larger;
+}
+
+
+#mainflexbox {
+display: flex;flex-direction: row;gap: 5%;
+}
+
+#mainflexbox p {font-size: 3vh;display: flex;justify-items: center;align-items: center;}
+
+.btn-group {
+display: flex;
+flex-direction: column;
+}
+
+.Bildtext img {
+max-width: 100%;    
+}
+
+#CO2_Tabelle {background-color: azure;}
+#CO2_Tabelle th {background-color: grey;}
+
+#CO2_Tabelle td {
+background-color: azure;
+border: 0.5px;
+border-color: black;
+border-style: solid;    
+}
+
+/* ****************************************************Mobil Hochformat Ende ***************************************************** */
+
+
+
+/* ****************************************************Mobil Querformat Start ***************************************************** */
+@media (orientation: landscape) and (max-width: 767px) {
+  /* Styles für Handy im Querformat */
+
+ header h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  .Bildtext {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+margin-inline-start: 2%;
+background: linear-gradient(green,lightgreen) !important;
+border: 3px;
+border-radius: 5px;
+border-style: solid;
+    }
+
+.Bildtext img {
+min-width: 35%;
+max-width: 40%;
+height: auto;
+max-height: 40%;
+
+}
+
+.Bildtext p {
+
+display: flex;
+justify-content: flex-start;
+font-size: 100%;margin-inline-start: 0%;margin-inline-end: 0%;overflow-wrap: break-word;
+}
+
+
+h1, h3, h4 {font-size: 140%;margin-inline-start: 3%;margin-inline-end: 3%;display: flex;
+justify-content: start; margin-inline-start: 3%;
+}
+
+.Text_Überschrift, .Text_Überschrift p, .Text_Überschrift h1, .Text_Überschrift h2, .Text_Überschrift h3, .Text_Überschrift h4 {
+display: flex;
+justify-items: center;
+justify-items: center;
+flex-direction: column;
+text-align: center;
+align-items: center;
+width: 100%;
+}
+
+.Text_Überschrift {
+margin-top: 8%;
+margin-bottom: 5%;
+}
+
+body {
+display: flex;
+flex-direction: column;
+}
+
+main {
+flex: 1;
+}
+
+#Tabelle_mit_Funktion {
+
+display:flex;
+justify-content: center;
+    
+}
+
+
+}
+
+#CO2_Tabelle_wrapper .dataTables_info {
+  display: none;
+}
+
+/* ****************************************************Smartphone Querformat Ende ***************************************************** */
+
+
+
+
+/* **************************************************** Desktop Start ************************************************************** */
+@media (min-width: 768px) {
+
+header {display: flex;flex-direction: column;}
+
+header h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+#Begrüßung {
+display: flex;
+flex: 1;
+font-size: x-large;    
+}
+
+
+
+
+
+.Bildtext {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+margin-inline-start: 2%;
+background: linear-gradient(green,lightgreen) !important;
+border: 3px;
+border-radius: 5px;
+border-style: solid;
+    }
+
+.Bildtext img {
+max-width: 20%;
+}
+
+.Bildtext p {
+font-size: 150%;
+display: flex;
+justify-content: flex-start;
+font-size: 120%;margin-inline-start: 3%;margin-inline-end: 3%;overflow-wrap: break-word;
+}
+
+
+h1, h3, h4 {font-size: 140%;margin-inline-start: 3%;margin-inline-end: 3%;display: flex;
+justify-content: start; margin-inline-start: 3%;
+}
+
+.Text_Überschrift, .Text_Überschrift p, .Text_Überschrift h1, .Text_Überschrift h2, .Text_Überschrift h3, .Text_Überschrift h4 {
+display: flex;
+justify-items: center;
+flex-direction: column;
+text-align: center;
+align-items: center;
+width: 100%;
+}
+
+.Text_Überschrift {
+margin-top: 8%;
+margin-bottom: 5%;
+}
+
+body {
+display: flex;
+flex-direction: column;
+}
+
+main {
+flex: 1;
+}
+
+#Tabelle_mit_Funktion {
+
+display:flex;
+justify-content: center;
+    
+}
+
+
+
+
+}
+
+/* **************************************************** Desktop Ende *************************************************************** */
